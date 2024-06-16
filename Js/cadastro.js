@@ -31,6 +31,15 @@ document.getElementById('cadastroForm').addEventListener('submit', function(even
     }
 
     if (!hasError) {
+
+         // Armazenar dados no localStorage
+         localStorage.setItem('nome', nome);
+         localStorage.setItem('email', email);
+         localStorage.setItem('senha', senha);
+
+
+
+
         // Simular cadastro bem-sucedido (pode ser substituído por chamada a API real)
         // Aqui vamos apenas exibir uma mensagem de sucesso
         document.getElementById('successMessage').textContent = 'Cadastro realizado com sucesso!';
