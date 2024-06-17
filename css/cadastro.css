@@ -9,24 +9,25 @@ body {
 }
 
 form {
-    background-color: #fff;
+    background-color: #e9e9e9; /* Atualizado para combinar com o background do pop-up */
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 100%;
-    max-width: 400px;
+    max-width: 520px; /* Alinhado com a largura do pop-up */
     box-sizing: border-box;
+    text-align: center; /* Alinhado com o pop-up */
 }
 
 .form-group {
     padding: 10px;
     margin-bottom: 10px;
-    
 }
 
 label {
     display: block;
     margin-bottom: 5px;
+    font-size: 15pt; /* Atualizado para combinar com o tamanho da fonte */
 }
 
 input {
@@ -34,20 +35,22 @@ input {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    font-size: 15pt; /* Atualizado para combinar com o tamanho da fonte */
 }
 
 button {
-    background-color: #28a745;
-    color: #fff;
+    background-color: #8B4513; /* Alinhado com a cor do botão "Concluir" */
+    color: #e9e9e9;
     padding: 10px 15px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     width: 100%;
+    font-size: large; /* Alinhado com o botão "Concluir" */
 }
 
 button:hover {
-    background-color: #218838;
+    background-color: #9b4e17; /* Alinhado com a cor do botão ao passar o mouse */
 }
 
 .error {
