@@ -9,24 +9,29 @@
 <body>
    
     <form id="cadastroForm">
-        <div class="form-group">
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
-            <small class="error" id="nomeError"></small>
-        </div>
-        <div class="form-group">
+                        <h3>Cadastro</h3>
+        <div class="form-group">    
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+            <input type="email" id="email" name="email" required
+            placeholder="Digite seu Email">
             <small class="error" id="emailError"></small>
         </div>
         <div class="form-group">
             <label for="senha">Senha:</label>
-            <input type="password" id="senha" name="senha" required>
-            <small class="error" id="senhaError"></small>
+            <input type="password" id="senha" name="senha" required
+            placeholder="Digite sua Senha">
+            <small class="error" id="senhaError"></small>  
         </div>
+        <div class="form-group">
+            <label for="senha">Confirme sua senha:</label>
+            <input type="password" id="confirmSenha" name="senha" required
+            placeholder="Confirme sua senha">
+            <small class="error" id="confirmSenhaError"></small>  
+        </div>
+          <div id="successMessage" class="success-message"></div>
         <button type="submit">Cadastrar</button>
     </form>
-    <div id="successMessage" class="success-message"></div>
+  
     <script src="./Js/cadastro.js"></script>
 </body>
 </html>
